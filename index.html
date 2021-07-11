@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Single Page Website</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>O</span>omii</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#places">places</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#videos">videos</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+    </header>
+
+    <!-- home -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Nature is the creator</h3>
+        <p>let's move in the lap of nature</p>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video
+          src="images/vid-1.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+    </section>
+
+    <!-- welcome -->
+
+    <div class="welcome" id="welcome">
+      <h1 class="heading">
+        <span>W</span>
+        <span>e</span>
+        <span>l</span>
+        <span>c</span>
+        <span>o</span>
+        <span>m</span>
+        <span>e</span>
+      </h1>
+
+      <div class="image">
+        <img src="./images/pari.jpg" alt="book-img" />
+        <div class="content">
+          <h4>My World With My Dream</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- packages -->
+
+    <section class="places" id="places">
+      <h1 class="heading">
+        <span>p</span>
+        <span>l</span>
+        <span>a</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/khajuraho.jpg" alt="khajuraho" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> khajuraho MP</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <a href="#" class="btn">visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/haridwar.jpg" alt="haridwar" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> haridwar</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <a href="#" class="btn">visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/jaipur.jpg" alt="jaipur" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> jaipur</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <a href="#" class="btn">visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/jodhpur.jpg" alt="jodhpur" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> jodhpur</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <a href="#" class="btn">visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/ladakh.jpg" alt="ladakh" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> ladakh</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <a href="#" class="btn">visit</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/mcleodganj.jpg" alt="mcleodganj" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> mcleodganj</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis, nam!
+            </p>
+            <a href="#" class="btn">visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            magni, Eligendi voluptate consectetur obcaecati deserunt aliquam
+            nihil eum, maxime adipisci atque consequuntur.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            magni, Eligendi voluptate consectetur obcaecati deserunt aliquam
+            nihil eum, maxime adipisci atque consequuntur.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            magni, Eligendi voluptate consectetur obcaecati deserunt aliquam
+            nihil eum, maxime adipisci atque consequuntur.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-globe-asia"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            magni, Eligendi voluptate consectetur obcaecati deserunt aliquam
+            nihil eum, maxime adipisci atque consequuntur.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            magni, Eligendi voluptate consectetur obcaecati deserunt aliquam
+            nihil eum, maxime adipisci atque consequuntur.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            magni, Eligendi voluptate consectetur obcaecati deserunt aliquam
+            nihil eum, maxime adipisci atque consequuntur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./images/g-1.jpg" alt="g-image" />
+        </div>
+        <div class="box">
+          <img src="./images/g-2.jpg" alt="g-image" />
+        </div>
+        <div class="box">
+          <img src="./images/g-3.jpg" alt="g-image" />
+        </div>
+        <div class="box">
+          <img src="./images/g-4.jpg" alt="g-image" />
+        </div>
+        <div class="box">
+          <img src="./images/g-5.jpg" alt="g-image" />
+        </div>
+        <div class="box">
+          <img src="./images/g-6.jpg" alt="g-image" />
+        </div>
+        <div class="box">
+          <img src="./images/g-7.jpg" alt="g-image" />
+        </div>
+        <div class="box">
+          <img src="./images/g-8.jpg" alt="g-image" />
+        </div>
+        <div class="box">
+          <img src="./images/g-9.jpg" alt="g-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- video gallery -->
+
+    <section class="video-container" id="videos">
+      <h1 class="heading">
+        <span>v</span>
+        <span>i</span>
+        <span>d</span>
+        <span>e</span>
+        <span>o</span>
+        <span class="space"></span>
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>a</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <div class="swiper-container video-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <video controls autoplay>
+              <source src="./images/vid-1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="swiper-slide">
+            <video controls autoplay>
+              <source src="./images/vid-2.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="swiper-slide">
+            <video controls autoplay>
+              <source src="./images/vid-3.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="swiper-slide">
+            <video controls autoplay>
+              <source src="./images/vid-4.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="swiper-slide">
+            <video controls autoplay>
+              <source src="./images/vid-5.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review -->
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic1.jpg" alt="" />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./images/pic2.jpg" alt="" />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./images/pic3.jpg" alt="" />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="./images/pic4.jpg" alt="" />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./images/bharat.png" alt="India" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="number" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea
+            placeholder="message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </section>
+
+    <!-- india -->
+    <section class="india-container">
+      <div class="swiper-container india-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/1.jpeg" alt="img-india" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/3.jpeg" alt="img-india" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/2.jpeg" alt="img-india" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/4.jpeg" alt="img-india" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/7.jpeg" alt="img-india" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/6.jpeg" alt="img-india" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/8.jpg" alt="img-india" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/5.jpeg" alt="img-india" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/9.jpg" alt="img-india" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>branch location</h3>
+          <a href="#">India</a>
+          <a href="#">USA</a>
+          <a href="#">Japan</a>
+          <a href="#">france</a>
+        </div>
+        <div class="box">
+          <h3>branch location</h3>
+          <a href="#">India</a>
+          <a href="#">USA</a>
+          <a href="#">Japan</a>
+          <a href="#">france</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">book</a>
+          <a href="#">packages</a>
+          <a href="#">gallery</a>
+          <a href="#">services</a>
+          <a href="#">review</a>
+          <a href="#">contact</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="https://www.facebook.com/omjideshmukh"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://www.instagram.com/omii_deshmukh/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/Omdeshmukh1110"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/omprakashdeshmukh/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+      <h1 class="credit">
+        created by <span> Omii </span> | all rights reserved!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
